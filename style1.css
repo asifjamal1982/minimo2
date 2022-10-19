@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+width: 90%;
+margin: auto;
+overflow: hidden;
+margin-top: 30px;
+}
+.logo{
+width: 20%;
+float: left;
+}
+.logo img{
+
+}
+.menu{
+width: 50%;
+float: right;
+}
+.menu ul{
+
+list-style: none;
+
+float: right;
+}
+.menu ul li{
+
+float: left;
+
+margin-left: 30px;
+}
+.menu ul li a{
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.banner{
+
+width: 90%;
+
+margin: auto;
+}
+.banner img{width: 100%;
+}
+.photodiary{
+
+width: 80%;
+
+margin: 70px auto;
+}
+
+.photodiary h1{
+
+color: #626262;
+
+font-size: 40px;
+
+margin-bottom: 20px;
+}
+.photodiary h5{
+
+color: #626262;
+
+text-transform: uppercase;
+
+margin-bottom: 20px;
+
+}
+
+.photodiary p{
+
+color: #626262;
+
+font-size: 16px;
+
+margin-bottom: 20px;
+
+}
+
+    .photodiary a{
+
+color: #626262;
+
+text-transform: uppercase;
+
+font-size: 12px;
+
+text-decoration: none;
+
+font-weight: 700;
+}
+
+.lifestyle{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.item{
+    
+width: 47%;
+margin-bottom: 50px;
+}
+.item img{
+
+width: 100%;
+}
+
+
+.item a{
+    
+color: #626262;
+    
+text-transform: uppercase;
+    
+/* font-size: 12px; */
+    
+text-decoration: none;
+    
+/* font-weight: 700; */
+    
+margin: 10px 0;
+    
+display: block;
+}
+
+
+.item h1{
+    
+color: #626262;
+    
+font-size: 30px;
+    
+margin: 20px 0;
+    
+text-transform: capitalize;
+}
+
+
+.item p{
+    
+color: #626262;
+    
+font-size: 16px;
+    
+margin-bottom: 20px;
+    
+text-align: justify;
+}
+.signup{
+
+background-color: #f0f0f0;
+
+height: 300px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+margin-bottom: 100px;
+}
+.signup_content{
+
+width: 364px;
+}
+
+.signup_content h1{
+
+color: #626262;
+
+font-size: 30px;
+
+margin: 20px 0;
+
+text-transform: capitalize;
+
+margin bottom: 2;
+}
+
+.signup_content input{
+
+border: none;
+
+background: none;
+
+border-bottom: 1px solid;
+
+width: 100%;
+padding: 6px 0px 10px opx;
+font-size: 15px;
+}
+.signup_content input:focus{
+    outline: none;
+}
+.button{
+
+height: 300px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+.button button{
+    
+padding: 20px 30px;
+    
+background: transparent;
+    
+border: none;
+    
+border: 1px solid #000;
+    
+font-size: 18px;
+}
